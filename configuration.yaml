@@ -1,0 +1,7 @@
+# Weather Prediction
+sensor:
+[other sensors]
+  - platform: command_line
+    name: Weekday
+    command: '/home/homeassistant/.homeassistant/scripts/weekday.py'
+    scan_interval: 3600
